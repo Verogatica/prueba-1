@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@400;700&display=swap');
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+
+font-family: 'Poppins', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    align-items: center;
+    margin: 0;
+    position: sticky;
+
+}
+
+a {color: white; text-decoration: none; padding: 30px;}
+
+a:hover {color: red;}
+
+.encabezado {text-align: center; color: white;}
+
+.nombregrupo {
+    margin-left: 10px;
+}
+.logo {
+    display: flex;
+}
+
+.logo img {
+    height: 50px;
+    padding-top: 8px;
+}
+
+.encabezado {	
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5), 
+      rgba(50, 0, 0, 0.5)
+    ), url("img/img1.png");
+    background-size: cover;
+    height: 500px;
+     background-attachment: fixed;
+    }
+
+.tituloencabezado {margin: 0px;
+padding-top: 200px;
+}
+
+
+.autor {
+    display: flex;
+    margin: 100px;
+    justify-content: space-evenly;
+}
+
+
+.textoautor {
+    display: block;
+    padding-left: 50px;
+}
+
+.autor img{border-radius: 50%; }
+
+.imagen1:hover {background-color: rgba(255,255,255,0.5);}
+
+.imagen1:hover {background-color: rgba(255,255,255);}
+
+.imagen1 img {opacity: 0.5;}
+.imagen1 img:hover {opacity: 1; }
+
+.galeria {
+    text-align: center;
+    background-color: black;
+    margin: 100px;
+    margin-top: -50px;
+    height: 400px;
+    border-radius: 10px;
+    display: inline-flex;
+}
+
+.galeria1 {
+    text-align: left;
+    width: 30%;
+    margin-left: 40px;
+    color: white;
+    padding-top: 100px;
+}
+
+.imagen1 {display: inline-block;
+background-color: white; 
+height: 300px;
+margin: 50px;
+border-radius: 10px;}
+
+.imagen1 img {margin: 0; border-radius: 10px;
+}
+
+
+.contenedor-imagen1 {
+    width: 200px;
+    height: 200px;
+    text-align: right;
+    margin: 20px;
+}
+
+.principio {
+    display: inline-flex;
+    margin: 50px;
+}
+
+
+.contenedor-imagen {
+    width: 500px;
+    height: 300px;
+    text-align: right;
+    margin: 10px;
+}
+
+.textop1 {
+    margin-left: 50px;
+
+}
+
+.titulo1 {
+    padding-left: 60px;
+    font-family: 'Playfair Display', serif;
+    font-size: 42px;
+    color: dodgerblue;
+}
+
+footer {
+    background-color: black;
+    height: 200px;
+    color: white;
+
+}
+
+.elementos-footer1 {
+	 display: inline-flex;}
+
+.fot1 ,.fot2 ,.fot3 {margin: 50px; margin-left: 150px; display: inline-flex;}
+
+.material-symbols-outlined { margin: 15px;
+}
+
+.grafico {margin: 200px;}
+
+.video {text-align: center; margin-top: 100px;}
+
+
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-left: 400px ;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.importante {margin: 70px;}
